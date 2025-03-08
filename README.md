@@ -1,5 +1,3 @@
-# blue
-
 # SecureChat - End-to-End Encrypted Messaging App
 
 SecureChat is a modern messaging platform with enhanced security features, focusing on privacy, reliability, and a seamless user experience across web and mobile platforms.
