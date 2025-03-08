@@ -1,0 +1,83 @@
+```
+blue-app/
+├── public/
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── manifest.json
+│   ├── robots.txt
+│   └── images/
+│       ├── chat-illustration.svg
+│       ├── logo-dark.svg
+│       └── logo-light.svg
+├── src/
+│   ├── components/
+│   │   ├── Navigation.jsx
+│   │   ├── ChatHeader.jsx
+│   │   ├── MessageBubble.jsx
+│   │   ├── FilePreview.jsx
+│   │   ├── AudioPlayer.jsx
+│   │   ├── VideoPlayer.jsx
+│   │   ├── ImageViewer.jsx
+│   │   ├── ContactCard.jsx
+│   │   ├── EncryptionBadge.jsx
+│   │   ├── MediaRecorder.jsx
+│   │   └── QRCodeScanner.jsx
+│   ├── contexts/
+│   │   ├── AuthContext.jsx
+│   │   ├── ThemeContext.jsx
+│   │   └── NotificationContext.jsx
+│   ├── hooks/
+│   │   ├── useMediaQuery.js
+│   │   ├── useDebounce.js
+│   │   ├── useLocalStorage.js
+│   │   └── useOnlineStatus.js
+│   ├── lib/
+│   │   ├── supabaseClient.js
+│   │   ├── constants.js
+│   │   └── utils.js
+│   ├── pages/
+│   │   ├── Login.jsx
+│   │   ├── Register.jsx
+│   │   ├── Chat.jsx
+│   │   ├── Contacts.jsx
+│   │   ├── Profile.jsx
+│   │   ├── Settings.jsx
+│   │   └── Error404.jsx
+│   ├── services/
+│   │   ├── E2EEService.js
+│   │   ├── FileUploadService.js
+│   │   ├── NotificationService.js
+│   │   ├── LocationService.js
+│   │   └── AnalyticsService.js
+│   ├── styles/
+│   │   ├── global.css
+│   │   ├── chat.css
+│   │   ├── auth.css
+│   │   ├── contacts.css
+│   │   ├── settings.css
+│   │   └── variables.css
+│   ├── App.jsx
+│   ├── index.jsx
+│   └── serviceWorker.js
+├── .env.local
+├── .gitignore
+├── package.json
+├── README.md
+├── vercel.json
+├── supabase/
+│   ├── migrations/
+│   │   └── 001_initial_schema.sql
+│   ├── seed/
+│   │   └── sample_data.sql
+│   └── functions/
+│       ├── message-notifications.js
+│       └── cleanup-expired-files.js
+└── mobile/
+    ├── App.js
+    ├── app.json
+    ├── package.json
+    ├── metro.config.js
+    └── components/
+        ├── MobileNavigation.jsx
+        └── PushNotifications.jsx
+```
